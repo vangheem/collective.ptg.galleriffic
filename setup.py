@@ -25,6 +25,7 @@ setup(name='collective.ptg.galleriffic',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'collective.plonetruegallery'
       ],
       entry_points="""
       # -*- Entry points: -*-
