@@ -1,10 +1,11 @@
+from zope.i18nmessageid import MessageFactory
 from collective.plonetruegallery.utils import createSettingsFactory
-from collective.plonetruegallery import PTGMessageFactory as _
 from collective.plonetruegallery.browser.views.display import \
     BaseDisplayType
 from collective.plonetruegallery.browser.views.display import jsbool
 from collective.plonetruegallery.interfaces import IBaseSettings
 
+_ = MessageFactory('collective.ptg.galleriffic')
 
 class IGallerifficDisplaySettings(IBaseSettings):
     pass
